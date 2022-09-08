@@ -1,0 +1,26 @@
+.board {
+  width: min(100vh, 100vw);
+  height: min(100vh, 100vw);
+  background-color: goldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 20px;
+}
+
+.space1:nth-child(odd) {
+  background-color: black;
+}
+
+.space1:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.space2:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+.space2:nth-child(even) {
+  background-color: black;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flag {
+  position: relative;
+  margin-left: 155px;
+  margin-top: 155px;
+  width: 494px;
+  height: 250px;
+}
+
+.stripe {
+  height: 20px;
+}
+
+.stripe:nth-child(odd) {
+  background-color: #b22234;
+}
+
+.stripe:nth-child(even) {
+  background-color: #ffffff;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 197.6px;
+  height: 140px;
+  margin: 0;
+}

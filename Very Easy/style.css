@@ -1,7 +1,7 @@
 .board {
   width: min(100vh, 100vw);
   height: min(100vh, 100vw);
-  background-color: goldenrod;
+  background-color: rgb(32, 103, 218);
   margin-left: auto;
   margin-right: auto;
   display: grid;
